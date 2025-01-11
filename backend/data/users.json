@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "admin1",
+    "password": "pass123",
+    "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHqQAhr87cf9o3nfPj42O4loQ1oz8FBJIfJkYckRg2gjzwwu4BT3lqa4NVTDQpzIn7LFRhLPl9LJFL6qp_9i_f-A"
+  },
+  {
+    "id": 2,
+    "name": "denis",
+    "password": "denisa",
+    "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfD_-DxYp_mc5rzxJSLkPJxik07KpumAEzQ&s"
+  },
+  {
+    "id": 3,
+    "name": "admin",
+    "password": "pass123",
+    "profilePicture": "default.jpg"
+  }
+]

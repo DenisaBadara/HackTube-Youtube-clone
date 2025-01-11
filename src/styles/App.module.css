@@ -1,0 +1,35 @@
+.appContainer {
+  display: flex;
+}
+
+.mainContent {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #181818;
+  min-height: 100vh;
+  color: white;
+  transition: margin-left 0.3s ease-in-out;
+  flex: 1;
+}
+
+.menuOpen {
+  margin-left: 200px; 
+}
+
+.menuClosed {
+  margin-left: 60px; 
+}
+
+@media (max-width: 768px) {
+  .menuOpen {
+    margin-left: 150px;
+  }
+
+  .menuClosed {
+    margin-left: 50px;
+  }
+
+  .mainContent {
+    padding: 10px;
+  }
+}

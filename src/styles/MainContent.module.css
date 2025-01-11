@@ -1,0 +1,58 @@
+.videoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-top: 50px;
+}
+
+.tagContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tagButton {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.selectedTag {
+  background-color: white;
+  color: #202020;
+}
+
+@media (max-width: 1200px) {
+  .videoGrid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 900px) {
+  .videoGrid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .videoGrid {
+    grid-template-columns: 1fr;
+  }
+
+  
+  .tagContainer {
+    display: none; 
+  }
+}

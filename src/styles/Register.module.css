@@ -1,0 +1,53 @@
+.registerContainer {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input:focus {
+    outline: none;
+    border-color: white;
+}
+
+.button {
+    padding: 10px;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    color: white;
+    margin-top: auto;
+
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.error {
+    color: #ff4d4f;
+    font-size: 14px;
+}

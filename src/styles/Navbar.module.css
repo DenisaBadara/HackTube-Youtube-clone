@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #202020;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1001; 
+  height: 60px; 
+  box-sizing: border-box;
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0; 
+}
+
+.hamburgerButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logoIcon {
+  font-size: 28px;
+  color: red;
+  margin-right: 5px;
+}
+
+.logoText {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 800px;
+  margin: 0 20px;
+}
+
+.searchForm {
+  display: flex;
+  width: 100%;
+}
+
+.searchBar {
+  flex: 1;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  background: #121212;
+  color: white;
+  outline: none;
+}
+
+.searchButton {
+  padding: 8px 16px;
+  border: none;
+  background: #303030;
+  border-radius: 0 20px 20px 0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 2px transparent;
+  border-radius: 5px;
+  margin-right: 0;
+  flex-shrink: 0; 
+  text-align: left;
+}
+
+.userInfo:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.profilePicture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userName {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.loginButton {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: white;
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.loginButton:hover {
+  background: white;
+  color: #202020;
+}
+
+.userIcon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.loginText {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    max-width: 600px;
+    margin: 0 10px;
+  }
+
+  .logoText {
+    display: none;
+  }
+
+  .loginButton {
+    padding: 6px 12px;
+  }
+
+  .userIcon {
+    margin-right: 4px;
+    font-size: 16px;
+  }
+
+  .loginText {
+    font-size: 14px;
+  }
+
+  .navbar {
+    padding: 10px 10px;
+  }
+}
